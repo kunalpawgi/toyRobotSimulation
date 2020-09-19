@@ -25,7 +25,7 @@ Toy robot simulation on a 5*5 tabletop
   ------------------------
 
   ```
-  node runTests.js
+  node runTest.js
   ```
 
   - Commands can be given through a text file in the 'tests' folder.
