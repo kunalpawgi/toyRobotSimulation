@@ -11,17 +11,6 @@ module.exports = class ToyRobot{
     console.log(`Reported Position - ${this.x}, ${this.y} ,${this.direction}`)
   }
 
-  place(x,y,position){
-    if (x < 0 || x > 4 || y < 0 || y > 4){
-      console.log("Invalid moving positions while moving")
-    }
-    else{
-      this.x = x
-      this.y = y
-      this.direction = position
-    }
-  }
-
   move(){
     let flag = false
     if (this.direction === "NORTH"){
