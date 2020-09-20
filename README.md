@@ -36,16 +36,19 @@ Toy robot simulation on a 5*5 tabletop
 
   ### /tests/command-1.txt
 
+  ```
   PLACE 1,2,EAST
   MOVE
   MOVE
   LEFT
   MOVE
   REPORT
-
+  ```
 
   ### /tests/command-2.text
 
+  ```
   PLACE 0,0,NORTH
   MOVE
   REPORT
+  ```
