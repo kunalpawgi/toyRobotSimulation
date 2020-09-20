@@ -12,22 +12,22 @@
 
   Constraints
   -----------
-- The toy robot must not fall off the table during movement. This also
-  includes the initial placement of the toy robot.
-- Any move that would cause the robot to fall must be ignored.
+  - The toy robot must not fall off the table during movement. This also
+    includes the initial placement of the toy robot.
+  - Any move that would cause the robot to fall must be ignored.
 
   Node Installation
   -------------------
-- The application requires Node Js which can be downloaded from the following link - https://nodejs.org/en/
+  - The application requires Node Js which can be downloaded from the following link - https://nodejs.org/en/
 
   Running the application
   ------------------------
   ```
   node runTest.js
   ```
-- Commands can be given through a text file in the 'tests' folder.
-- The runTest.js picks up the files in the 'tests' folder and executes the commands.
-- The files are picked up one by one for execution of the commands.
+  - Commands can be given through a text file in the 'tests' folder.
+  - The runTest.js picks up the files in the 'tests' folder and executes the commands.
+  - The files are picked up one by one for execution of the commands.
 
   Example Input
   ------------------------
