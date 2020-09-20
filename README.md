@@ -1,7 +1,7 @@
 # Toy Robot Simulation
 
-  Toy robot simulation on a 5*5 tabletop
-  ----------------------------------------
+     Toy robot simulation on a 5*5 tabletop
+     ----------------------------------------
 - The application is a simulation of a toy robot moving on a square tabletop,
   of dimensions 5 units x 5 units.
 - There are no other obstructions on the table surface.
