@@ -1,16 +1,20 @@
 //toy application for movement on the board
 
 module.exports = class ToyRobot{
+
+  // Creating a constructor of the ToyRobot class
   constructor(x,y,direction){
     this.x = x
     this.y = y
     this.direction = direction
   }
 
+  // Reporting the position of the toy robot on the tabletop
   report(){
     console.log(`Reported Position - ${this.x}, ${this.y} ,${this.direction}`)
   }
 
+  // Moving the toy robot in the specified direction
   move(){
     let flag = false
     if (this.direction === "NORTH"){
@@ -43,6 +47,7 @@ module.exports = class ToyRobot{
     }
   }
 
+  // Move Left from the current direction
   moveLeft() {
     if (this.direction === "NORTH"){
       this.direction = "WEST"
@@ -58,6 +63,7 @@ module.exports = class ToyRobot{
     }
   }
 
+  // Move right from the current direction
   moveRight() {
     if (this.direction === "NORTH") {
       this.direction = "EAST"
